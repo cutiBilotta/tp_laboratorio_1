@@ -1,0 +1,25 @@
+id,name,lastname,price,flycode,typePassenger,statusFlight
+1,Lou,Gonzalez,10000,BA2491A,FirstClass,Demorado
+2,Ulrike,Munioz,25000,IB0800A,ExecutiveClass,Aterrizado
+3,Brade,Rojas,20000,MM0987B,FirstClass,En Horario
+4,Kimbell,Diaz,50000,BA2491A,FirstClass,Aterrizado
+5,Sheelagh,Perez,18000,IB0800A,FirstClass,Aterrizado
+6,Gayle,Soto,30000,MM0987B,EconomyClass,Demorado
+7,Kimberlee,Contreras,33000,BA2491A,FirstClass,Aterrizado
+8,Henrieta,Silva,30000,IB0800A,EconomyClass,Aterrizado
+9,Jeanine,Martinez,18000,MM0987B,ExecutiveClass,En Horario
+10,Aggie,Sepulveda,15000,BA2491A,EconomyClass,Aterrizado
+11,Brandea,Morales,15000,IB0800A,ExecutiveClass,Aterrizado
+12,Cordelie,Rodriguez,50000,IB0800A,FirstClass,Demorado
+13,Shel,Lopez,50000,MM0987B,EconomyClass,En Horario
+14,Bronnie,Fuentes,20000,MM0987B,ExecutiveClass,Demorado
+15,Megen,Hernandez,10000,BA2491A,ExecutiveClass,Demorado
+16,Iver,Torres,12000,BA2491A,ExecutiveClass,Aterrizado
+17,Ernesta,Araya,37000,BA2491A,FirstClass,Demorado
+18,Cirillo,Flores,50000,MM0987B,FirstClass,Demorado
+19,Park,Espinoza,30000,MM0987B,FirstClass,En Horario
+20,Bellanca,Valenzuela,15000,BA2491A,EconomyClass,Aterrizado
+21,Bobbye,Castillo,15000,BA2491A,ExecutiveClass,Aterrizado
+22,Eugene,Tapia,50000,BA2491A,FirstClass,Aterrizado
+23,Johnny,Reyes,33000,MM0987B,EconomyClass,En Horario
+24,Reagen,Gutierrez,42000,MM0987B,FirstClass,Demorado

@@ -1,0 +1,61 @@
+11:13:42 **** Incremental Build of configuration Debug for project TP4_LinkedListII ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from ..\src\main.c:8:
+..\src\Controller.h:9:41: error: unknown type name 'LinkedList'
+    9 | int controller_loadFromText(char* path, LinkedList* pArrayListPassenger);
+      |                                         ^~~~~~~~~~
+..\src\Controller.h:10:43: error: unknown type name 'LinkedList'
+   10 | int controller_loadFromBinary(char* path, LinkedList* pArrayListPassenger);
+      |                                           ^~~~~~~~~~
+..\src\Controller.h:11:29: error: unknown type name 'LinkedList'
+   11 | int controller_addPassenger(LinkedList* pArrayListPassenger, int* id);
+      |                             ^~~~~~~~~~
+..\src\Controller.h:12:30: error: unknown type name 'LinkedList'
+   12 | int controller_editPassenger(LinkedList* pArrayListPassenger);
+      |                              ^~~~~~~~~~
+..\src\Controller.h:13:32: error: unknown type name 'LinkedList'
+   13 | int controller_removePassenger(LinkedList* pArrayListPassenger);
+      |                                ^~~~~~~~~~
+..\src\Controller.h:14:30: error: unknown type name 'LinkedList'
+   14 | int controller_ListPassenger(LinkedList* pArrayListPassenger);
+      |                              ^~~~~~~~~~
+..\src\Controller.h:15:30: error: unknown type name 'LinkedList'
+   15 | int controller_sortPassenger(LinkedList* pArrayListPassenger);
+      |                              ^~~~~~~~~~
+..\src\Controller.h:16:39: error: unknown type name 'LinkedList'
+   16 | int controller_saveAsText(char* path, LinkedList* pArrayListPassenger);
+      |                                       ^~~~~~~~~~
+..\src\Controller.h:17:41: error: unknown type name 'LinkedList'
+   17 | int controller_saveAsBinary(char* path, LinkedList* pArrayListPassenger);
+      |                                         ^~~~~~~~~~
+..\src\Controller.h:18:19: error: unknown type name 'LinkedList'
+   18 | int controller_id(LinkedList* pArrayListPassenger);
+      |                   ^~~~~~~~~~
+..\src\Controller.h:19:39: error: unknown type name 'LinkedList'
+   19 | Passenger* controller_findPassengerId(LinkedList* pArrayListPassenger, int id, int* index);
+      |                                       ^~~~~~~~~~
+..\src\Controller.h:22:27: error: unknown type name 'LinkedList'
+   22 | int controller_saveLastId(LinkedList* pArrayListPassenger);
+      |                           ^~~~~~~~~~
+..\src\main.c: In function 'main':
+..\src\main.c:26:5: warning: implicit declaration of function 'controller_loadFromBinary'; did you mean 'controller_NameCompare'? [-Wimplicit-function-declaration]
+   26 |     controller_loadFromBinary("data.bin", listaPasajeros);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |     controller_NameCompare
+..\src\main.c:27:5: warning: implicit declaration of function 'controller_ListPassenger' [-Wimplicit-function-declaration]
+   27 |     controller_ListPassenger(listaPasajeros);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+..\src\main.c:29:33: warning: implicit declaration of function 'll_filter' [-Wimplicit-function-declaration]
+   29 |     LinkedList* listaDemorados= ll_filter(listaPasajeros, filterDemorado);
+      |                                 ^~~~~~~~~
+..\src\main.c:29:33: warning: initialization of 'LinkedList *' {aka 'struct LinkedList *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+..\src\main.c:32:31: warning: initialization of 'LinkedList *' {aka 'struct LinkedList *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   32 |     LinkedList* listaEconomy= ll_filter(listaPasajeros, filterEconomy);
+      |                               ^~~~~~~~~
+..\src\main.c:35:31: warning: initialization of 'LinkedList *' {aka 'struct LinkedList *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   35 |     LinkedList* listaBaratos= ll_filter(listaPasajeros, filterBaratos);
+      |                               ^~~~~~~~~
+
+11:13:42 Build Failed. 12 errors, 6 warnings. (took 192ms)
+
